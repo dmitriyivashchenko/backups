@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    margin: 10px 0;
+}
+
+.fish1{
+    margin-left: 0;
+}
+.fish2{
+    margin-left: 100px;
+}
+.fish3{
+    margin-left: 120px;
+}
+.fish4{
+    margin-left: 210px;
+}
+.fish5{
+    margin-left: 260px;
+}
+.fish6{
+    margin-left: 270px;
+}
+.fish7{
+    margin-left: 320px;
+}
+.fish8{
+    margin-left: 380px;
+}
+.fish9{
+    margin-left: 470px;
+}
+.fish10{
+    margin-left: 515px;
+}
+.fish11{
+    margin-left: 570px;
+}
+
+.fish1 span:hover{
+    color: red;
+}
+.fish2 span:hover{
+    color: yellow;
+}
+.fish3 span:hover{
+    color: green;
+}
+.fish4 span:hover{
+    color: blue;
+}
+.fish5 span:hover{
+    color: chocolate;
+}
+.fish6 span:hover{
+    color: indigo;
+}
+.fish7 span:hover{
+    color: fuchsia;
+}
+.fish8 span:hover{
+    color: blueviolet;
+}
+.fish9 span:hover{
+    color: royalblue;
+}
+.fish10 span:hover{
+    color: palevioletred;
+}
+.fish11 span:hover{
+    color: goldenrod;
+}

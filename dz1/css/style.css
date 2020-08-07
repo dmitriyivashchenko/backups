@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 24px;
+}
+img{
+    height: 500px;
+}

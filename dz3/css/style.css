@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+}
+.wrapper div{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 2px solid #000;
+    position: absolute;
+    display: block;
+    transition: all 1s;
+}
+
+.wrapper div:hover{
+    background-color: rgb(187, 59, 187);
+    transition: all 2s ease;
+}
+
+.one{
+    width: 25%;
+    height: 150px;
+    background-color: red;
+}
+.two{
+    width: 30%;
+    height: 150px;
+    background-color: yellow;
+    top: 75px;
+}
+.three{
+    width: 35%;
+    height: 150px;
+    background-color: green;
+    top: 150px;
+}
+.four{
+    width: 40%;
+    height: 150px;
+    background-color: blue;
+    top: 225px;
+}
+.five{
+    width: 45%;
+    height: 150px;
+    background-color: pink;
+    top: 300px;
+}
+.six{
+    width: 50%;
+    height: 150px;
+    background-color: gray;
+    top: 375px;
+}
