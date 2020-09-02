@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+    color: #000;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #e8ebf1;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+}
+
+.header__logo a{
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.header__logo span{
+    color: #2aacc8;
+    font-weight: 400;
+}
+
+.header__menu > ul > li{
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.header__menu > ul{
+    margin-right: 18px;
+}
+
+.header__menu li + li{
+    margin-left: 50px;
+}
+.header__menu .header__drop{
+    margin-left: 39px;
+    margin-right: -24px;
+}
+
+.header__drop > a{
+    position: relative;
+    padding: 10px 26px 13px 11px;
+    border-top: 5px solid transparent;
+    transition: all .3s;
+}
+
+.header__drop > a::after{
+    content: '';
+    position: absolute;
+    background-image: url(../images/down-arrow.png);
+    width: 7px;
+    height: 5px;
+    top: 13px;
+    right: 9px;
+}
+
+.header__drop > a:hover{
+    border-top: 5px solid #2aacc8;
+    background-color: #fff;
+}
+
+.drop-down__list{
+    display: none;
+    position: absolute;
+    padding: 0;
+}
+
+.drop-down__list:hover{
+    display: block;
+}
+.header__drop li{
+    margin: 0;
+}
