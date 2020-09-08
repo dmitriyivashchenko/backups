@@ -17,7 +17,8 @@ ul{
 }
 
 body{
-    background-color: #fcfcfc;
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
 }
 
 .container{
